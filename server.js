@@ -2,7 +2,6 @@ const dotenv = require("dotenv");
 const makeApp = require('./app');
 
 dotenv.config({path: '.env'})
-//do other things like connecting to your database here
 const port = process.env.PORT || 3000;
 
 makeApp()
