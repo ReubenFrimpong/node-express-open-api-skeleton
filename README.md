@@ -1,5 +1,5 @@
 # node-express-open-api-skeleton
-A Node Express skeleton that comes with openapi/swagger already configured including routing with the help of the [`swagger-routes-express`](https://github.com/davesag/swagger-routes-express) npm package.
+A Node Express skeleton that comes with openapi/swagger already configured including routing with the help of the [`swagger-routes-express`](https://github.com/davesag/swagger-routes-express) package.
 
 # Installation
 - Clone the project by running from your command line git clone https://github.com/ReubenFrimpong/node-express-open-api-skeleton.git
