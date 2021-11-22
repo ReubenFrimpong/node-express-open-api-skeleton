@@ -9,8 +9,9 @@ const makeApp = async () => {
   const apiDefinition = await parser.validate('./docs/openapi.yaml');
   const connect = connector(api, apiDefinition) // make the connector
   const app = express() // make the app
+  // parse post request body as json
+  express.json();
   // do any other app stuff, such as wire in passport, use cors etc
-
   app.use('/api-docs',swaggerUi.serve, swaggerUi.setup(apiDefinition));
 
   connect(app); // attach the routes
